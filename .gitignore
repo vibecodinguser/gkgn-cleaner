@@ -1,5 +1,40 @@
-/.DS_Store
-result/.DS_Store
-.venv
-.idea
-__pycache__
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Тесты / покрытие
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Выгрузки конвертера (результат работы скриптов)
+result/*.xlsx
+result/*.csv
+
+# Локальные/временные PDF в корне (при необходимости раскомментируйте)
+# source/*.pdf
