@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gkgn-cleaner"
+version = "0.1.0"
+description = "PDF из папки source → pandas DataFrame через docling → сохранение в result/"
+requires-python = ">=3.12"
+dependencies = [
+    "docling",
+    "pandas",
+    "openpyxl",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+]
