@@ -1,0 +1,8 @@
+docling
+docling-ibm-models
+onnxruntime
+pandas
+openpyxl
+rapidocr
+tqdm
+transformers
